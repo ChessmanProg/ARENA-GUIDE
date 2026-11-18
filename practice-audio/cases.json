@@ -1,0 +1,130 @@
+[
+  {
+    "title": "IQ-focused · Math explanation",
+    "prompt": "Ask both models to explain how to solve three x plus five equals twenty, then ask how to check the answer.",
+    "questions": [
+      "Can you explain how to solve three x plus five equals twenty?",
+      "How can I check my answer?"
+    ],
+    "A": [
+      "First, subtract five from both sides. That gives three x equals fifteen. Divide both sides by three, and x equals five.",
+      "Substitute five into the original equation. Three times five is fifteen. Add five to get twenty. The answer is correct."
+    ],
+    "B": [
+      "The answer is five. Subtract five from twenty, and then divide the result by three.",
+      "You can check by substituting five back into the equation. It should equal twenty."
+    ],
+    "defects": {
+      "A": [
+        [],
+        []
+      ],
+      "B": [
+        [
+          [
+            "Tick / click",
+            1.25
+          ],
+          [
+            "Pop",
+            3.2
+          ]
+        ],
+        [
+          [
+            "Warbling",
+            1.8
+          ]
+        ]
+      ]
+    },
+    "utility": "Both explain the equation correctly. A provides a more complete verification, while B is shorter. Both meet the basic learning goal."
+  },
+  {
+    "title": "EQ-focused · Friendly tour guide",
+    "prompt": "Pretend you are visiting a fictional town. Ask for a welcome and an invitation to return.",
+    "questions": [
+      "I am visiting your little town for the first time. Can you welcome me as my tour guide?",
+      "What would you say to invite me to return?"
+    ],
+    "A": [
+      "Welcome to our little town! Let us take a walk through the market. After that, we can enjoy some snacks and visit the old clock tower.",
+      "Come back any time! There is always a new story to hear, a new snack to try, and a friendly face waiting for you."
+    ],
+    "B": [
+      "Welcome! I can show you around the market and the old clock tower. You might enjoy the food here too.",
+      "You should visit us again. We have plenty of places to explore and lots of delicious food to try."
+    ],
+    "defects": {
+      "A": [
+        [
+          [
+            "Dropout",
+            2
+          ]
+        ],
+        [
+          [
+            "Clipping / harsh distortion",
+            2.4
+          ]
+        ]
+      ],
+      "B": [
+        [],
+        [
+          [
+            "Tick / click",
+            1.1
+          ]
+        ]
+      ]
+    },
+    "utility": "Both stay in the tour-guide role. A gives a more vivid invitation in turn four, while B remains relevant. Judge vocal naturalness independently; these are synthetic voices."
+  },
+  {
+    "title": "IQ-focused · Tagalog study coach",
+    "prompt": "Magtanong tungkol sa pagre-review para sa pagsusulit at kung paano magagamit ang maikling oras sa pag-aaral.",
+    "questions": [
+      "Paano ako makakapag-review nang maayos para sa exam bukas?",
+      "Paano kung tatlumpung minuto lang ang oras ko?"
+    ],
+    "A": [
+      "Unahin ang mahihirap na paksa. Basahin ang mahahalagang konsepto, pagkatapos ay sagutan ang mga halimbawa nang hindi tumitingin sa notes.",
+      "Maglaan ng sampung minuto sa pagbabasa, labinlimang minuto sa pagsagot ng mga tanong, at limang minuto sa pagbalik sa mga mali."
+    ],
+    "B": [
+      "Magbasa ka ng notes at subukang sagutan ang ilang halimbawa. Magpahinga rin kung kinakailangan.",
+      "Pumili ng pinakamahalagang paksa. Mag-review ka muna, pagkatapos ay subukan kung naaalala mo ang mga sagot."
+    ],
+    "defects": {
+      "A": [
+        [],
+        []
+      ],
+      "B": [
+        [
+          [
+            "Tick / click",
+            1.25
+          ],
+          [
+            "Pop",
+            3.2
+          ]
+        ],
+        [
+          [
+            "Warbling",
+            1.8
+          ],
+          [
+            "Dropout",
+            4.1
+          ]
+        ]
+      ]
+    },
+    "utility": "Both offer useful study advice. A gives a concrete thirty-minute schedule; B offers more general guidance. These are fictional scripts, not actual model outputs."
+  }
+]
