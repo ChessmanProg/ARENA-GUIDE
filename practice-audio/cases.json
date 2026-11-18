@@ -16,26 +16,17 @@
     ],
     "defects": {
       "A": [
-        [],
-        []
-      ],
-      "B": [
         [
           [
             "Tick / click",
             1.25
-          ],
-          [
-            "Pop",
-            3.2
           ]
         ],
-        [
-          [
-            "Warbling",
-            1.8
-          ]
-        ]
+        []
+      ],
+      "B": [
+        [],
+        []
       ]
     },
     "utility": "Both explain the equation correctly. A provides a more complete verification, while B is shorter. Both meet the basic learning goal."
@@ -57,27 +48,17 @@
     ],
     "defects": {
       "A": [
+        [],
         [
           [
-            "Dropout",
-            2
-          ]
-        ],
-        [
-          [
-            "Clipping / harsh distortion",
+            "Pop",
             2.4
           ]
         ]
       ],
       "B": [
         [],
-        [
-          [
-            "Tick / click",
-            1.1
-          ]
-        ]
+        []
       ]
     },
     "utility": "Both stay in the tour-guide role. A gives a more vivid invitation in turn four, while B remains relevant. Judge vocal naturalness independently; these are synthetic voices."
@@ -99,30 +80,22 @@
     ],
     "defects": {
       "A": [
-        [],
-        []
-      ],
-      "B": [
-        [
-          [
-            "Tick / click",
-            1.25
-          ],
-          [
-            "Pop",
-            3.2
-          ]
-        ],
         [
           [
             "Warbling",
             1.8
-          ],
+          ]
+        ],
+        [
           [
-            "Dropout",
-            4.1
+            "Tick / click",
+            3.2
           ]
         ]
+      ],
+      "B": [
+        [],
+        []
       ]
     },
     "utility": "Both offer useful study advice. A gives a concrete thirty-minute schedule; B offers more general guidance. These are fictional scripts, not actual model outputs."
